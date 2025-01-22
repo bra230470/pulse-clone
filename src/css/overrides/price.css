@@ -1,0 +1,145 @@
+.pricing-section {
+    background-color: #f7fdf8; /* Light green background */
+}
+
+.info-box {
+    font-family: "Archivo", sans-serif;
+    color: var(--primary-color);
+    margin-top: 120px;
+}
+
+.info-box h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.info-box ul {
+    list-style-type: disc;
+    margin-left: 0px;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.info-box a {
+    color: #01AE6A;
+    font-weight: bold;
+}
+
+.info-box li{
+    color: #454545;
+}
+
+.features li{
+    list-style: none;
+}
+
+.pricing-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+}
+
+.plan-title {
+    font-size: 3rem;
+    font-weight: 850;
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column; /* Stack words vertically */
+    align-items: center; /* Center horizontally */
+    line-height: 1;
+    margin-bottom: 1rem;
+    letter-spacing: -1px;
+}
+
+.plan-title-light{
+    font-size: 2.5rem;
+    font-weight: 150;
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column; /* Stack words vertically */
+    align-items: center; /* Center horizontally */
+    line-height: 1;
+    margin-bottom: 1rem;
+    letter-spacing: -1px;
+}
+
+.pricing-card .price {
+    font-size: 1.25rem;
+    color: #666; /* Subtle gray for the price */
+    margin-bottom: 1rem;
+}
+
+.pricing-card .btn {
+    margin-top: 15px; /* Space above the button */
+    padding: 10px 20px;
+    border-radius: 0; /* Sharp corners */
+    font-weight: bold;
+    text-transform: uppercase; /* Make text uppercase */
+}
+
+.pricing-card-features {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+    margin-top: 80px;
+}
+
+.pricing-card-features .features p {
+    margin-top: 20px; /* Optional: Add spacing above the text */
+}
+
+.pricing-card .features {
+    text-align: left;
+}
+
+.pricing-card .features p {
+    text-align: center; /* Centers the text horizontally */
+    margin-top: 20px; /* Adjust this value to lower the text */
+    font-size: 1rem; /* Optional: Adjust font size if needed */
+}
+
+.pricing-card .features ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.pricing-card.recommended {
+    border: 2px solid var(--primary-color);
+}
+
+.recommended .badge {
+    background-color: var(--primary-color); /* Use your primary color */
+    color: #fff; /* White text for contrast */
+    font-size: 0.875rem;
+    font-weight: bold;
+    padding: 5px 15px; /* Add horizontal padding for a more rectangular look */
+    border-radius: 0; /* Sharp corners for the badge */
+    text-transform: uppercase; /* Ensure text is all caps */
+    margin-bottom: 15px; /* Add spacing below the badge */
+    display: inline-block;
+}
+
+
+.pricing-card ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.pricing-card ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.pricing-card ul li box-icon {
+    margin-right: 10px; /* Add space between the icon and the text */
+    flex-shrink: 0; /* Prevent icon from shrinking */
+}

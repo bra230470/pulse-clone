@@ -1,0 +1,36 @@
+.testimonial-section {
+    background-color: #f7fdf8; /* Matches the light green background */
+    color: #333; /* Dark text for contrast */
+    font-family: "Archivo", sans-serif;
+    text-align: center;
+}
+
+.testimonial-logo img {
+    width: 80px; /* Adjust the logo size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular logo */
+    margin-bottom: 20px; /* Space between logo and quote */
+}
+
+.testimonial-quote {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px; /* Make the text stretch wider */
+    color: #333;
+    text-align: center; /* Ensure centered text alignment */
+}
+
+.testimonial-author {
+    font-size: 0.875rem; /* Smaller text */
+    font-weight: bold;
+    color: #01AE6A; /* Use primary color */
+    letter-spacing: 1px; /* Slight spacing for uppercase */
+    margin-top: 20px; /* Add space above author text */
+}
+
+.container-fluid {
+    max-width: 1000px; /* Extend the container width */
+    margin: auto; /* Center the container */
+}

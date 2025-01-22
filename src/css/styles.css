@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #00ad6a;
+    --secondary-color: #eafaf1;
+    --accent-color: #1fe374;
+    --dark-color: #080c16;
+    --neutral-color: #d6dae5;
+    --light-color: #fcfcfc;
+}
+
+/* Example Usage */
+body {
+    font-family: Archivo, sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border: 2px solid var(--accent-color);
+}
+
+a {
+    color: var(--primary-color);
+}

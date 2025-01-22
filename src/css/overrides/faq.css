@@ -1,0 +1,22 @@
+.faq-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #333; /* Dark text for contrast */
+}
+
+.faq-answer {
+    font-size: 1rem;
+    color: #555; /* Subtle gray for readability */
+    margin-top: 10px;
+    line-height: 1.6;
+}

@@ -1,0 +1,14 @@
+
+.navbar {
+    margin-top: 20px;
+    background-color: var(--secondary-color) !important;
+}
+.nav-item{
+    font-family: "Archivo", sans-serif;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.nav-item a:hover {
+    color: black;
+}
